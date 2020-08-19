@@ -1,0 +1,56 @@
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  // position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-top: 100px;
+  // (這個top-margin要刪掉)
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9em;
+
+  .first-child {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 65%;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      height: 60%;
+      justify-content: space-evenly;
+
+      h4 {
+        color: #53b9d1;
+        font-weight: bold;
+      }
+
+      span {
+        margin-bottom: 5px;
+        color: #4f4f4f;
+      }
+    }
+
+    .subscribe {
+      margin-top: 60px;
+
+      h3 {
+        color: #4f4f4f;
+      }
+    }
+  }
+
+  .last-child {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+}
